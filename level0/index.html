@@ -8,5 +8,90 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Kitepeche Logo">
+                <h1>Kitepeche</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <input type="text" id="searchBar" placeholder="Search...">
+                <a href="#sign-up" class="sign-up-btn">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content Placeholder -->
+    <main>
+      <!-- Welcome Section -->
+      <section class="welcome-section">
+          <div class="container">
+              <div class="welcome-text">
+                  <h2>Welcome To The Stories World</h2>
+                  <p>Dive into a world of magical tales and endless adventures. Discover stories that spark imagination and bring joy to young hearts. Whether you're a curious explorer, a brave hero, or a dreamy adventurer, our library is your gateway to enchanting journeys and delightful characters. Welcome to the ultimate storybook haven, where every book is a new friend waiting to be discovered! 📚✨</p>
+                  <!-- <p>We use only the best quality materials on the market in order to provide the best products to our patients. So don’t worry about anything and book yourself.</p> -->
+                  <a href="#" class="discover-btn">Discover More</a>
+              </div>
+              <div class="welcome-image">
+                  <img src="./images/child.png" alt="Child reading a book">
+              </div>
+          </div>
+      </section>
+  
+      <!-- Our Books Section -->
+    <section class="books-section" id="books">
+        <div class="container">
+            <h2>Our Books</h2>
+            
+            <!-- Search and Filter Options -->
+            <div class="filter-container">
+                <select id="categorySelect">
+                    <option value="All">All Categories</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Picture Book">Picture Book</option>
+                    <option value="Fantasy">Fantasy</option>
+                </select>
+                <select id="ageGroupSelect">
+                    <option value="All">All Age Groups</option>
+                    <option value="0-4">0-4</option>
+                    <option value="5-8">5-8</option>
+                    <option value="9-12">9-12</option>
+                </select>
+            </div>
+            <!-- Dynamic Books Container -->
+            <div class="books-grid" id="booksContainer"></div>
+        </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            <p>All rights reserved © kitepche.com | Terms and conditions apply!</p>
+        </div>
+        <div class="footer-center">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Blogs</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-right">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
